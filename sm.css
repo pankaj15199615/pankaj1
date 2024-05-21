@@ -1,0 +1,66 @@
+footer {
+    width: 100%;
+    bottom: 0;
+    background: black;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col h2 {
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.col .logo {
+    margin-top: 10px;
+    height: 90px;
+    width: 110px;
+    background-color: white;
+    margin-bottom: 1px solid black;
+}
+
+.email {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+
+}
+
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col i {
+    font-size: x-large;
+    margin-left: 15px;
+}
+
+.col p {
+    font-size: large;
+    margin-left: 15px;
+}

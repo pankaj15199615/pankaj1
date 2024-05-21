@@ -194,7 +194,7 @@ button:hover{
     font-size: 30px;
  }
  .parent {
-    background-color: background-color: rgba(190, 192, 193, 0.598);;
+    background-color: rgba(190, 192, 193, 0.598); 
     width: 100%;
     height: 100%;
     display: flex;
@@ -277,7 +277,19 @@ button:hover{
     border-radius: 20px;margin-left: 180px;
 }
 .contact1 li{
-    margin-top: 150px;
+    /* margin-top: 150px; */
     list-style: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left:-90px;
+    margin-top: 200px;
     
 }
+.contact2{
+    display: flex;
+    margin-left: 900px;
+    align-items: center;
+    
+    /* margin-top: 900px; */
+}
+
